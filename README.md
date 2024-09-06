@@ -12,17 +12,17 @@ to create your own map you need:
 - **map_data.txt** - stores data associated with the map. like: tile colors, empty tile color, player tile color, player angle
 
 # How to compile:
-(1) download the repository.
-(2) run the 'build.bat' file.
-(3) generate the project files you want by **calling any of the premake commands** listed in the 'help' message.
+- (1) download the repository.
+- (2) run the 'build.bat' file.
+- (3) generate the project files you want by **calling any of the premake commands** listed in the 'help' message.
     or if you want to compile outside your project editor **you can just call 'compile' or 'c'**.
     **NOTE:** by calling 'compile' command you will run the MSBuild compiler with the vs2022 solution by default.
-(4) **compile your project in the project editor** you generated your files for!
+- (4) **compile your project in the project editor** you generated your files for!
 
-if you want to run the executable in the dev enviroment outside your project editor you can just type 'run' or 'r' for short.
-**type 'help' for list of commands in the 'build.bat' file.**
+- if you want to run the executable in the dev enviroment outside your project editor you can just type 'run' or 'r' for short.
+- **type 'help' for list of commands in the 'build.bat' file.**
 
 # Troubleshooting:
-if you don't have Visual Studio 2022 installed the 'compile' command won't work by default.
-you can fix this by changing the premake command under ':Compile' in the 'build.bat' file from 'vs2022' to somthing else. (yeah it kinda sucks)
-if this doesn't fix this you will heve to change "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" to some other Dev Enviroment Directory.
+- if you don't have Visual Studio 2022 installed the 'compile' command won't work by default.
+- you can fix this by changing the premake command under ':Compile' in the 'build.bat' file from 'vs2022' to somthing else. (yeah it kinda sucks)
+- if this doesn't fix this you will heve to change "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" to some other Dev Enviroment Directory.
