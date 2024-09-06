@@ -1,0 +1,8 @@
+> vytvořit "premake.lua" soubor v hlavním adresáři
+> napsat lua script pro projekt
+> přez příkazový řádek v hlavním adresáři spustit "premake5.exe"
+> měl by se vytvořit Scene.sln soubor v hlavním adresáři
+
+> Všechno automatizováno v setup_proj.bat souboru! (stačí jenom spustit!)
+
+> (podle tutoriálu od "The Cherno" v jeho Hazel Game engine playlistu)

@@ -1,0 +1,27 @@
+// you can use comments as you would in any C/C++ file (except /**/)
+// the colors in this file use the RGB color format
+
+// player tile color on wich the player will spawn
+player_tile_color {
+	255, 0, 255 	// purple
+}
+
+// player starting angle
+player_angle {
+	180
+}
+
+// define an empty tile color
+empty_tile_color {
+	255, 255, 255 	// white
+}
+
+// list of tile colors in the map.
+// the order of the colors will determine the texture of the tile.
+// so the first color will be the first texture in the atlas. the second color will be the second texture and so on...
+tile_color_list {
+	0, 0, 0,	// black (first texture)
+	255, 0, 0,	// red	 (second texture)
+	0, 255, 0,	// blue
+	0, 0, 255	// green
+}
