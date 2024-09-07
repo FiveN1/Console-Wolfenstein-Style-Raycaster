@@ -1,4 +1,4 @@
-workspace "CMD_Raycaster"
+workspace "Console_Raycaster"
     architecture "x86_64"
 	startproject "CSource"
 
@@ -13,7 +13,7 @@ workspace "CMD_Raycaster"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}" 
 
-project "CMD_Raycaster"
+project "Console_Raycaster"
 	kind "ConsoleApp"
 	language "C++"
 	cppdialect "C++17"

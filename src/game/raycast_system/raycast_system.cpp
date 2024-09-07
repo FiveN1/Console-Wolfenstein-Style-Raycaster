@@ -281,7 +281,3 @@ void Raycaster::RenderFloor(Texture2D& viewport) {
 		}
 	}
 }
-
-char Raycaster::ValueToAscii(float value, const char* charmap) {
-	return '0';
-}

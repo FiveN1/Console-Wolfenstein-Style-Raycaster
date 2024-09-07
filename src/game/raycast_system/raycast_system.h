@@ -21,8 +21,5 @@ namespace Raycaster {
     void RenderMipMap(Texture2D& viewport, GameMap& map, vec2 camera_position);
 
     void RenderFloor(Texture2D& viewport);
-
-    char ValueToAscii(float value, const char* charmap);
-    
 }
 #endif RAYCAST_SYSTEM_H

@@ -8,13 +8,12 @@ Game::Game(std::string map_folder) : m_running(true), m_viewport(64*2, 48), m_ma
 	m_console.SetTitle("Console Raycaster");
 	m_console.SetFont(L"Consolas", 16);
 	m_console.SetDisplayMode(CONSOLE_FULLSCREEN_MODE);
-	
 	// Clear console
 	m_console.Clear();
 
-	printf("**********************\n");
-	printf("Console Raycaster v0.1\n");
-	printf("**********************\n");
+	printf("*****************\n");
+	printf("Console Raycaster\n");
+	printf("*****************\n");
 	printf("Loaded map: %s\n", map_folder.c_str());
 	printf("Use 'WSAD' to move\n");
 	printf("'Right-click' to rotate the camera\n");

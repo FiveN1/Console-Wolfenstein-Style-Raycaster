@@ -40,6 +40,7 @@ echo   exit              Exit from this program
 echo   compile / c       Compile your program
 echo   run     / r       Run compiled program
 echo   clean             Remove all binaries and intermediate binaries and project files.
+echo   ** Premake Commands Below **
 echo   codelite          Generate CodeLite project files
 echo   gmake             Generate GNU makefiles for Linux
 echo   vs2005            Generate Visual Studio 2005 project files
@@ -69,12 +70,12 @@ if not defined DevEnvDir (
     call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat"
 )
 
-set solutionFile="CMD_Raycaster.sln"
+set solutionFile="Console_Raycaster.sln"
 msbuild /t:Build /p:Configuration=Debug /p:Platform=x64 %solutionFile%
 
 echo.
 
-bin\Debug-windows-x86_64\CMD_Raycaster\CMD_Raycaster.exe
+bin\Debug-windows-x86_64\Console_Raycaster\Console_Raycaster.exe
 
 GOTO Done
 
@@ -85,6 +86,6 @@ GOTO Done
 :Run
 echo.
 
-bin\Debug-windows-x86_64\CMD_Raycaster\CMD_Raycaster.exe
+bin\Debug-windows-x86_64\Console_Raycaster\Console_Raycaster.exe
 
 GOTO Done
