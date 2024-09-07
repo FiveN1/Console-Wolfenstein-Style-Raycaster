@@ -1,7 +1,36 @@
 # Console-Wolfenstein-Style-Raycaster
 A Simple Wolfenstein style raycaster game in a conosle window!
 
+Rendered in ASCII
+```
+                                    ,-+*oii-
+                             ...oiH####iiiii
+                      ,--/*iO---HHHooiiiiiOiH
+               ,,+,-H#ooOOOOO.,,iii----OOO,iO/
+        ,,++/.#OiiOOOOOOOOOii   //*,,,,  ,/ iO,
+       Oiii**,O*iiiioo ,+//--++-+--Oiioo**Oi+*O
+       i-*+++.**/++-++  OOi,,###OOOOOOOiOOoio.+*
+       -o.iio-*HOOOOoo,,HHH**OOOOOOOOOOooo*oO*O/,
+       o*.OOH*HHiiii*/..OOOiOOOOiiiiiOO//*+/iiio*++++..*o*oiiO++
+--,,.,.*-,**oOH/-+*ooo--/*o*o++/+//++++,,-  */+O*+.**--o**//,i**
+.-+--+,,OO*/-,+O*/o+++ii*/+,,,,-/+-Oiio-,.o*-+H/i/+*+++o/**/,o**
+--,,.,.#iOi**.OO#HHHOOiiOOO//---###iiiOooo**#oiio/+++..oiiOOoO+-
+.......i+/+oo.OiOHiiOO**iOOoo---OOO*ooo/****O*+-*+./***///++,o*o
+.......-i./,, o/-++/iO.,**o**.,,oii////oo*ooo-oH..............
+.......Oo,OOOi/OOi//++  *++,--, -+/+++++*o..--i*................
+.......*+ O*iOOioooo*/-,H##--##H*/+Oi**,  /*oO+.................
+......... .,,ii/+/Oioo,-OOHo*oiOOOOOOOOOioOiOo .................
+..................,++/,,iOOiOOOiOOOiOOOiiioiO,..................
+..........................+*o-/*OOO*ooiiioOOo...................
+................................,+*++/*iOO*-....................
+................................... .., ,+  ....................
+.......................................... .....................
+................................................................
+```
 
+## Download
+If you just want to run the binary, you can download the latest release packge here:
+[Download latest release](https://github.com/FiveN1/Console-Wolfenstein-Style-Raycaster/releases)
 
 ## Controls:
 - movement: `WSAD`
