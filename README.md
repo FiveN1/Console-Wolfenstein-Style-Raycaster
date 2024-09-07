@@ -49,7 +49,7 @@ to create your own map you will need theese files in your `assets/map` folder:
 or if you want to compile outside your project editor you can just call the `compile` or `c` command.
 4. **compile your project in the project editor** you generated your files for!
 > [!NOTE]
-> by calling `compile` command you will run the **MSBuild** compiler with the `vs2022` solution by default. **this might not work if you dont have Visual Studio 2022 installed!**
+> by calling the `compile` command you will run the **MSBuild** compiler with the `vs2022` solution by default. **this might not work if you dont have Visual Studio 2022 installed!**
 
 - if you want to run the executable in the dev enviroment outside your project editor you can just type `run` or `r` for short.
 - type `help` for list of commands in the `build.bat` file.
